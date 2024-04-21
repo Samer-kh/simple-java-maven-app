@@ -21,9 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stages("compelete"){
-            steps{
-                echo "all done"
+        stage('Comp') {
+            steps {
+                echo "samer"
             }
         }
     }
